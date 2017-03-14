@@ -5,8 +5,8 @@ Python/Pygame interface and 3D models for replicating the PKE meter from the Rea
 
 ###Source Code
 
-* main.py - Executes main PyKE code
-* interface.py - Contains UI elements for creating the various screens
+* core.py - Executes main PyKE code
+* ui.py - Contains UI elements for creating the various screens
 * config.py - Defines inputs/outputs for various configurations
 * peripherals.py - Contains code and definitions for interacting with the various devices (stepper motor, magnetometer, etc.)
 * Media - Folder containing all images and audio files for use with source code
