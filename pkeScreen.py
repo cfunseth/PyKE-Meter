@@ -65,7 +65,7 @@ def main():
         pygame.mouse.set_visible(0)
         font = pygame.font.SysFont('Lucida Console', 12, bold=False)
 
-        pygame.mixer.music.load('PKE_Loop.wav')
+        pygame.mixer.music.load('media/PKE_Loop.wav')
         pygame.mixer.music.play(-1) #Plays loop forever
 
 #Create Background
@@ -79,9 +79,9 @@ def main():
 
 #Prepare Game Objects
         rect = screen.get_rect()
-        lines = Crosshair('lines.png', rect.center)
-        borderx = BorderX('borderx.png', rect.center)
-        bordery = BorderY('bordery.png', rect.center)
+        lines = Crosshair('media/lines.png', rect.center)
+        borderx = BorderX('media/borderx.png', rect.center)
+        bordery = BorderY('media/bordery.png', rect.center)
         allsprites = pygame.sprite.RenderPlain(lines, borderx, bordery)
 
         #Sine Wave Parameters
