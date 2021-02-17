@@ -1,4 +1,4 @@
-# PyKE-meter
+# PyKE Meter
 Python/Pygame interface and 3D models for replicating the PKE meter from the Real Ghostbusters.
 
 The project is currently being developed for a Raspberry Pi Zero running Rasbian Stretch Lite (10-09-2018).
